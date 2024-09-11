@@ -11,12 +11,19 @@
         <h1>Atletas do Brasil</h1>
     </header>
     <main>
-        <input type="text" placeholder="Digite o nome do atleta">
-        <button>Pesquisar</button>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" 
+        id="resultados-pesquisa">
+        </section>
     </main>
     <footer>
         <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
         <p>Entre em contato pelo email: miatletas@gmail.com</p>
     </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
