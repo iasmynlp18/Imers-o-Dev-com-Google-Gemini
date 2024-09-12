@@ -9,14 +9,23 @@ function pesquisar() {
       section.innerHTML = "Nada foi encontrado"
       return
     }
+
+    campoPesquisa = campoPesquisa.toLowerCase()
   
     // Inicializa uma string vazia para armazenar os resultados da pesquisa
     let resultados = "";
+    let titulo = "";
+    let descricao = "";
+    let tags = "";
   
     // Itera sobre cada dado na lista de dados
     for (let dado of dados) {
+      titulo = dado.titulo.toLowerCase()
+      descricao = dado.descricao.toLowerCase()
+      tags = dado.tags.toLowerCase()
+
       // se titulo inclui campoPesquisa
-      if (dado.titulo.includes(campoPesquisa)) {
+      if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
         // cria um novo elemento
       resultados += ` <div class="item-resultado">
           <h2>
@@ -30,5 +39,6 @@ function pesquisar() {
     // Atribui o HTML gerado para o conteúdo interno da seção
     section.innerHTML = resultados;
   }
-
-
+    // Atribui o HTML gerado para o conteúdo interno da seção
+    section.innerHTML = resultados;
+  }
