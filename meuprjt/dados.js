@@ -1,0 +1,177 @@
+let dados = [
+    {
+        nome:"HELL/HEAVEN",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4ZrT4GknVWRvBYA8AcLCeY?si=853968893d344aba"
+    },
+    {
+        nome:"ANGOSTURA",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/38umMmZQdeoOG7Zojor4g3?si=d5d282dd606040cb"
+    },
+    {
+        nome:"WESTSIDE",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/60bAuEmJQfzeDV1B84H4xY?si=352fc65805874993"
+    },
+    {
+        nome:"IT'S YOU",
+        artista:"MAX, keshi",
+        link:"https://open.spotify.com/intl-pt/track/5SMCxRA6hB2jEhroaYfw6N?si=c7f0e95c78ac4e4d"
+    },
+    {
+        nome:"LIMBO",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2bdVgAQgosGUJoViVDNeOV?si=d909aeae81c54819"
+    },
+    {
+        nome:"GET IT",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4LaZ8RpIP6DIgN73bXQVlO?si=bdb22da105224d97"
+    },
+    {
+        nome:"TOUCH",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/5cgy5vMqVZbd8hYutp2txu?si=92bf6bd8888a46b3"
+    },
+    {
+        nome:"ANGEL",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/0srUf03MHZ4cbOO4o2ydDu?si=5077d26ff41943d3"
+    },
+    {
+        nome:"SOMEBODY",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/3iqlzKw1tLt6tXZyKWV0fZ?si=26b8d2f1aeea470a"
+    },
+    {
+        nome:"Bodies",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/7AaCqnFCdfEKesBwSzS8NQ?si=a5d674e398fe49dc"
+    },
+    {
+        nome:"Like That",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/3pf5M9sxSecmhjT9gMPwe9?si=6f3d7aaaafa44916"
+    },
+    {
+        nome:"Night",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4xlkIVboOY2plOALp9bqD8?si=74d46087c0a84056"
+    },
+    {
+        nome:"War",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/7GjOb7jRRrB3nrNqFeKzff?si=f74d29939b024071"
+    },
+    {
+        nome:"Dream",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2os94xwGzHhL7XgtSdzep2?si=8057252ec2aa4461"
+    },
+    {
+        nome:"Id",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4fpfoturiKPbzXKU7z9hED?si=be37e08a280d4f92"
+    },
+    {
+        nome:"Soft Spot",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/5pmITEphUtjpCLmKiYIPl9?si=260b429d62a14522"
+    }, 
+    {
+        nome:"Texas",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/3WC2ccIwPnOSzV5FxOXUL9?si=820cd4f0374a46bc"
+    },
+    {
+        nome:"Say",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/49PPH7Kji3bCyKKNx78SxS?si=3192c774d77544bd"
+    },  
+    {
+        nome:"Euphoria",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2F6Cjiv4jXoW6WinuSsNdc?si=f2b57f9f7cbe4af3"
+    },
+    {
+        nome:"Just To Die",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/3yEaPpWowSHTBAbhUblXxc?si=c42f712f6c5942b1" 
+    },
+    {
+        nome: "B.Y.S",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2yyluSgySg95O24RBkgrMR?si=648d5a905a11442b"
+    },
+    {
+        nome:"Requiem",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/1YH01s3qSCjwt1eEHg6LRG?si=fcffd3530e914e33"
+    }, 
+    {
+        nome:"2 soon",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/5SlU0Yhi51jobhEiGE4xDv?si=ddf4331750244e27"
+    }, 
+    {
+        nome:"bandaids",
+        artista:"keshi",
+        link: "https://open.spotify.com/intl-pt/track/2ZP85Jq4K27V6WWVXfINSR?si=0b9c71ac706a4c18"
+    },             
+    {
+        nome:"talk",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/0b8Sf6sJqXOr9cP6tQ7QQx?si=f48c88cbfc5a4820"
+    },    
+    {
+        nome:"us",
+        artista:"keshi",
+        link:"https//open.spotify.com/intl-pt/track/3r9eGg4SVPbhtiPTA9UkmK?si=6e09f8141680424e"    
+    },    
+    {
+        nome:"more",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4qVnGlsfTviHt17vGdfOz0?si=94f09795c460413c"
+    },
+    {
+        nome:"less of you",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/3IqcBL5yjJK3ri0TGaL3MC?si=7382e511e7364304"
+    },
+    {
+        nome:"blue",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/21yCOhgaDMc0KEtxhZHTbI?si=94715b6eeec1422b"
+    },
+    {
+        nome:"summer",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/5IViMp8JnTLJw0GOnAhRfb?si=51d0b831a35448dd"
+    },
+    {
+        nome:"right here",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2Q3QRjA8MjzqpFaIkFludb?si=4828892a7550473a"
+    },
+    {
+        nome:"beside you",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/1Fhb9iJPufNMZSwupsXiRe?si=f623c942e2ad4528"
+    },
+    {
+        nome:"like i need u",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/7ivYWXqrPLs66YwakDuSim?si=691483c4e1b04b0a"
+    },
+    {
+        nome:"the reaper",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4vHoOPIlILceWMPGY5XEmJ?si=2797b3f7177c4c77"
+    },
+    {
+        nome:"Kiss me Right",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4fXmBERnR3SDk053aqQqwa?si=d067f84ef74144d5"
+    }, 
+]
