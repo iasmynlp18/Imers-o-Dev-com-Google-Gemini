@@ -2,11 +2,12 @@
 
 Durante minha participação na Imersão me interessei muito pelo projeto final, com isso, tive a ideia de tentar fazer um projeto meu **utilizando os mesmos conceitos das aulas**, porém com um rostinho diferente.
 
-- Os arquivos soltos são do projeto principal da imersão, enquanto a pasta [./meuprjt](https://github.com/iasmynlp18/Imersao-Dev-Com-Google-Gemini-E-Alura/tree/main/meuprjt) contém o meu projeto.<br>
+- Os arquivos soltos são do projeto principal da imersão, enquanto a pasta [./meuprjt](https://github.com/iasmynlp18/Imersao-Dev-Com-Google-Gemini-E-Alura/tree/main/meuprjt) contém o meu projeto.
+- Acesse o site do meu projeto por aqui: [**OneOfMyFaves**](https://one-of-my-faves.vercel.app/).<br>
 <br>
 
-### Alguns conceitos aprendidos na Imersão:
 
+### Alguns conceitos aprendidos na Imersão:
 - Arquivos base HMTL e CSS foram disponibilizados para uso direto
 - Arquivos JavaScript foram criados do zero
 - Função de pesquisa com botão funcional habilitado
