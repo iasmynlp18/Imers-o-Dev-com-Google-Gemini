@@ -6,7 +6,7 @@
     body {
         font-family: "Chakra Petch", sans-serif;  /* Define a fonte padrão */
         background-image: url("https://sites.bu.edu/wtbu/files/2022/05/15-2-banner-scaled.jpg");
-        background-size: 1358px;
+        background-size: 1356px;
         display: flex;             /* Usa Flexbox para layout */
         flex-direction: column;      /* Alinha os itens na vertical */
         align-items: center;         /* Centraliza os itens horizontalmente */
@@ -34,17 +34,16 @@
     }
     
     h3 {
-        height: 2rem;
-        width: 450px;
+        height: 1.4rem;
+        width: 500px;
         font-weight: 200;
         font-family: "Spicy Rice", serif;
-        font-size: 0.8rem;
-        color: #fdfcfcf2;
+        font-size: 0.91rem;
+        color: #d6d0d0;
         letter-spacing: 0.1rem;
         display: flex;
-        margin-top: -1.2rem;
+        margin-top: -1.22rem;
         align-content: center;
-
         align-items: center;
         text-align: center;
         padding-left: 19px;
@@ -59,9 +58,14 @@
         color: #fdfcfcf2;
         text-align: center;
         letter-spacing: 0.5rem;
-        margin-top: 0.90rem;
+        margin-top: 0.76rem;
         background-color: #0c0c0cf6;
         border-radius: 0.3rem;
+    }
+
+    #linkArtista a {             /* (#) = id    (.) = classe */
+        text-decoration: none;
+        color: #fdfcfcf2;
     }
 
     /* Estiliza as seções da página */
@@ -79,7 +83,7 @@
         border: none;              /* Remove a borda padrão */
         padding: 0.5rem;           /* Espaçamento interno */
         align-items: center;
-        margin-top: -0.6rem;          /* Espaçamento abaixo dos inputs */
+        margin-top: -1.6rem;       /* Espaçamento abaixo dos inputs */
         color: #030303;
         font-size: 1rem;
         box-sizing: border-box;    /* Inclui padding e border na largura total */
@@ -100,8 +104,8 @@
 
     /* Adiciona efeito hover ao botão de pesquisa */
     section button:hover {
-        background-color: hsl(0, 2%, 11%);   /* Muda a cor de fundo ao passar o mouse */
-        box-shadow: 0 4px 8px hsla(0, 4%, 65%, 0.651);    /* Adiciona uma sombra mais intensa */
+        background-color: hsl(0, 3%, 11%);   /* Muda a cor de fundo ao passar o mouse */
+        box-shadow: 0 4px 8px hsla(0, 0%, 66%, 0.651);    /* Adiciona uma sombra mais intensa */
     }
 
     /* Estiliza a caixa de resultados da pesquisa */
