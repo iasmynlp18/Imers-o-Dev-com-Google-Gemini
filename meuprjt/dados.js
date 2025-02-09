@@ -1,48 +1,18 @@
 let dados = [
     {
-        nome:"HELL/HEAVEN",
+        nome:"Forever",
         artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/4ZrT4GknVWRvBYA8AcLCeY?si=853968893d344aba"
+        link:"https://open.spotify.com/intl-pt/track/2C5nlzIMJ81NYmeGhofNNP?si=9640d63941894f67"
     },
     {
-        nome:"ANGOSTURA",
+        nome:"Inside Out",
         artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/38umMmZQdeoOG7Zojor4g3?si=d5d282dd606040cb"
+        link:"https://open.spotify.com/intl-pt/track/3x39bVlJlxorxZGzBpc2yA?si=57993bfefeb24a5a"
     },
     {
-        nome:"WESTSIDE",
+        nome:"I Choose You",
         artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/60bAuEmJQfzeDV1B84H4xY?si=352fc65805874993"
-    },
-    {
-        nome:"IT'S YOU",
-        artista:"MAX, keshi",
-        link:"https://open.spotify.com/intl-pt/track/5SMCxRA6hB2jEhroaYfw6N?si=c7f0e95c78ac4e4d"
-    },
-    {
-        nome:"LIMBO",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/2bdVgAQgosGUJoViVDNeOV?si=d909aeae81c54819"
-    },
-    {
-        nome:"GET IT",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/4LaZ8RpIP6DIgN73bXQVlO?si=bdb22da105224d97"
-    },
-    {
-        nome:"TOUCH",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/5cgy5vMqVZbd8hYutp2txu?si=92bf6bd8888a46b3"
-    },
-    {
-        nome:"ANGEL",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/0srUf03MHZ4cbOO4o2ydDu?si=5077d26ff41943d3"
-    },
-    {
-        nome:"SOMEBODY",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/3iqlzKw1tLt6tXZyKWV0fZ?si=26b8d2f1aeea470a"
+        link:"https://open.spotify.com/intl-pt/track/41EnM4giX9PJYZIBUCPmiI?si=4669a05f2a65486c"
     },
     {
         nome:"Bodies",
@@ -90,25 +60,80 @@ let dados = [
         link:"https://open.spotify.com/intl-pt/track/49PPH7Kji3bCyKKNx78SxS?si=3192c774d77544bd"
     },  
     {
-        nome:"Euphoria",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/2F6Cjiv4jXoW6WinuSsNdc?si=f2b57f9f7cbe4af3"
-    },
-    {
         nome:"Just To Die",
         artista:"keshi",
         link:"https://open.spotify.com/intl-pt/track/3yEaPpWowSHTBAbhUblXxc?si=c42f712f6c5942b1" 
     },
     {
-        nome: "B.Y.S",
+        nome:"Kiss Me Right",
         artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/2yyluSgySg95O24RBkgrMR?si=648d5a905a11442b"
+        link:"https://open.spotify.com/intl-pt/track/4fXmBERnR3SDk053aqQqwa?si=d067f84ef74144d5"
+    }, 
+    {
+        nome:"Euphoria",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2F6Cjiv4jXoW6WinuSsNdc?si=f2b57f9f7cbe4af3"
     },
     {
         nome:"Requiem",
         artista:"keshi",
         link:"https://open.spotify.com/intl-pt/track/1YH01s3qSCjwt1eEHg6LRG?si=fcffd3530e914e33"
     }, 
+    {
+        nome:"Amen",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4JQnxk7R0OXgPwG8eFPvCU?si=0e4861c742c04901"
+    },
+    {
+        nome:"HELL/HEAVEN",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4ZrT4GknVWRvBYA8AcLCeY?si=853968893d344aba"
+    },
+    {
+        nome:"ANGOSTURA",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/38umMmZQdeoOG7Zojor4g3?si=d5d282dd606040cb"
+    },
+    {
+        nome:"WESTSIDE",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/60bAuEmJQfzeDV1B84H4xY?si=352fc65805874993"
+    },
+    {
+        nome:"IT'S YOU",
+        artista:"MAX, keshi",
+        link:"https://open.spotify.com/intl-pt/track/5SMCxRA6hB2jEhroaYfw6N?si=c7f0e95c78ac4e4d"
+    },
+    {
+        nome:"LIMBO",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2bdVgAQgosGUJoViVDNeOV?si=d909aeae81c54819"
+    },
+    {
+        nome:"GET IT",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/4LaZ8RpIP6DIgN73bXQVlO?si=bdb22da105224d97"
+    },
+    {
+        nome:"TOUCH",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/5cgy5vMqVZbd8hYutp2txu?si=92bf6bd8888a46b3"
+    },
+    {
+        nome:"ANGEL",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/0srUf03MHZ4cbOO4o2ydDu?si=5077d26ff41943d3"
+    },
+    {
+        nome:"SOMEBODY",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/3iqlzKw1tLt6tXZyKWV0fZ?si=26b8d2f1aeea470a"
+    },
+    {
+        nome: "B.Y.S",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2yyluSgySg95O24RBkgrMR?si=648d5a905a11442b"
+    },
     {
         nome:"2 soon",
         artista:"keshi",
@@ -118,17 +143,32 @@ let dados = [
         nome:"bandaids",
         artista:"keshi",
         link: "https://open.spotify.com/intl-pt/track/2ZP85Jq4K27V6WWVXfINSR?si=0b9c71ac706a4c18"
-    },             
+    },        
+    {
+        nome:"War With Heaven",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/14gmLQPNYokqB8OKxAp69f?si=d8caaf61a1cb412f"
+    },   
     {
         nome:"talk",
         artista:"keshi",
         link:"https://open.spotify.com/intl-pt/track/0b8Sf6sJqXOr9cP6tQ7QQx?si=f48c88cbfc5a4820"
-    },    
+    },   
+    {
+        nome:"right here",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/2Q3QRjA8MjzqpFaIkFludb?si=4828892a7550473a"
+    }, 
     {
         nome:"us",
         artista:"keshi",
         link:"https//open.spotify.com/intl-pt/track/3r9eGg4SVPbhtiPTA9UkmK?si=6e09f8141680424e"    
-    },    
+    },  
+    {
+        nome:"beside you",
+        artista:"keshi",
+        link:"https://open.spotify.com/intl-pt/track/1Fhb9iJPufNMZSwupsXiRe?si=f623c942e2ad4528"
+    },  
     {
         nome:"more",
         artista:"keshi",
@@ -150,16 +190,6 @@ let dados = [
         link:"https://open.spotify.com/intl-pt/track/5IViMp8JnTLJw0GOnAhRfb?si=51d0b831a35448dd"
     },
     {
-        nome:"right here",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/2Q3QRjA8MjzqpFaIkFludb?si=4828892a7550473a"
-    },
-    {
-        nome:"beside you",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/1Fhb9iJPufNMZSwupsXiRe?si=f623c942e2ad4528"
-    },
-    {
         nome:"like i need u",
         artista:"keshi",
         link:"https://open.spotify.com/intl-pt/track/7ivYWXqrPLs66YwakDuSim?si=691483c4e1b04b0a"
@@ -168,10 +198,5 @@ let dados = [
         nome:"the reaper",
         artista:"keshi",
         link:"https://open.spotify.com/intl-pt/track/4vHoOPIlILceWMPGY5XEmJ?si=2797b3f7177c4c77"
-    },
-    {
-        nome:"Kiss me Right",
-        artista:"keshi",
-        link:"https://open.spotify.com/intl-pt/track/4fXmBERnR3SDk053aqQqwa?si=d067f84ef74144d5"
-    }, 
+    }
 ]
