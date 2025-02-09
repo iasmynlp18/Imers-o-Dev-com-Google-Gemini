@@ -4,45 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache"> <!-- evita que o navegador guarde versões antigas da página / garante que ela esteja sempre atualizada -->
     <link rel="stylesheet" href="style.css">
     <title>OneOf</title>
 </head>
+    <body>
+        <header>
+            <div>
+                <h1>MiFaves</h1>
+            </div>
+            <div>
+                <h3>Procure pelas melhores de um dos meus artistas favoritos!<h3>
+            </div>
+            <section>
+                <input type="text" placeholder="Digite o nome de uma música" id="campo-pesquisa">
 
-<body>
-    <header>
-        <div></div>
-        <h1>MiFaves</h1>
-        </div>
-        <div>
-            <h3>Procure pelas melhores de um dos meus artistas favoritos!</h3>
-        </div>
-        <section>
-            <input type="text" placeholder="Digite o nome de uma música" id="campo-pesquisa">
+                <!-- qualquer valor que for passado dentro desse atributo onclick 
+                vai ser uma ação que será executada ao clicar no botão, 
+                então esse atributo será uma função a ser executada que
+                recebe esse nome pois queremos pesquisar algo ao clicar no botão,
+                essa função precisa ser criada pois não é uma palavra reservada -->
+                <button onclick="pesquisar()">Pesquisar</button>
+            </section>
+        </header>
+        <main>
+            <div>
+                <h4 id="linkArtista">
+                    <a href="https://www.instagram.com/keshi" target="_blank">
+                        <img width="26" height="26" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+                        keshi  
+                    </a>
+                </h4>
+            </div>
+            <section class="itens-tela" id="resultados-pesquisa"></section>
+        </main>
+        <footer>
+            <p>2024 - Moldado por Iasmyn Lopes. Todos os direitos reservados.</p>
+        </footer>
 
-            <!-- qualquer valor que for passado dentro desse atributo onclick 
-            vai ser uma ação que será executada ao clicar no botão, 
-            então esse atributo será uma função a ser executada que
-            recebe esse nome pois queremos pesquisar algo ao clicar no botão,
-            essa função precisa ser criada pois não é uma palavra reservada -->
-            <button onclick="pesquisar()">Pesquisar</button>
-        </section>
-    </header>
-    <main>
-        <div>
-            <h4>keshi</h4>
-        </div>
-        <section class="itens-tela" id="resultados-pesquisa">
-        </section>
-    </main>
-    <footer>
-        <p>2024 - Moldado por Iasmyn Lopes. Todos os diteitos reservados</p>
-        <p></p>
-    </footer>
-
-    <!-- sempre primeiro os dados que queremos importar, depois a lógica
-    pros dados já estarem carregados -->
-    <script src="dados.js"></script>
-    <script src="app.js"></script>
-</body>
-
+        <!-- sempre primeiro os dados que queremos importar, depois a lógica
+        pros dados já estarem carregados -->
+        <script src="dados.js"></script>
+        <script src="app.js"></script>
+    </body>
 </html>
