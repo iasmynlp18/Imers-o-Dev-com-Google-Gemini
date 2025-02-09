@@ -46,8 +46,8 @@
         align-content: center;
         align-items: center;
         text-align: center;
-        padding-left: 19px;
         border-radius: 1.5rem;
+        justify-content: center;
     }
 
     h4 {
