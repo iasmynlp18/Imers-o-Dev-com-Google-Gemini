@@ -37,6 +37,13 @@ A ideia principal era criar um site para buscar as músicas dos meus artistas pr
 ### Conceitos modificados: 
 - Arquivo HTML refeito
 - Criação de um banco de dados do zero
-- A maior parte do arquivo CSS disponibilizado como base foi modificada 
+- A maior parte do arquivo CSS disponibilizado como base foi modificada
+
+<br>
+
+### Todos os conceitos aprendidos na imersão foram adicionados no meu projeto além de:
+  
+- Adição da funcionalidade de limpar a caixa de pesquisa após os resultados serem impressos
+- Links para os canais oficiais do artista
 
 <br>
